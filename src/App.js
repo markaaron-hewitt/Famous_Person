@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState } from "react";
-import { Grid, Button, Typography, Paper, Switch, FormControlLabel } from "@mui/material";
+import { Grid, Typography, Paper} from "@mui/material";
 import PhotoRadio from "./Components/PhotoRadio";
 import React from 'react';
 
@@ -20,7 +19,7 @@ function App() {
   "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Elizabeth_II_in_Queensland%2C_Australia%2C_1970.jpg/1280px-Elizabeth_II_in_Queensland%2C_Australia%2C_1970.jpg"]
 
   return (
-    <Grid container paddingTop = {5} spacing = {5} align={"center"} justifyContent={"center"}>
+    <Grid container padding = {5} spacing = {5} align={"center"} justifyContent={"center"}>
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet"/>
@@ -77,28 +76,6 @@ function App() {
       </Grid>
     </Grid>
   )
-
-  /*
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-  */
-
 }
 
 export default App;
